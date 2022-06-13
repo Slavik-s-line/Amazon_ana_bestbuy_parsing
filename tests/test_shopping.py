@@ -36,6 +36,9 @@ def amazon():
         if int(elem[1]) > max_review:
             max_review = int(elem[1])
             amazon_price = float(elem[2][1:].replace(",", "") + "." + elem[3])
+        elif int(elem[1]) == max_review:
+            if float(elem[2][1:].replace(",", "") + "." + elem[3]) < amazon_price:
+                amazon_price = float(elem[2][1:].replace(",", "") + "." + elem[3])
     driver.close()
     driver.quit()
     return amazon_price
@@ -69,6 +72,9 @@ def bestbuy():
             tittle_list.append(tittle.text)
             if review_list[tittles.index(tittle)] > max_review:
                 bestbuy_price = price_list[tittles.index(tittle)]
+            elif review_list[tittles.index(tittle)] == max_review:
+                if price_list[tittles.index(tittle)] < bestbuy_price:
+                    bestbuy_price = price_list[tittles.index(tittle)]
     driver.close()
     driver.quit()
     return bestbuy_price
