@@ -3,10 +3,6 @@ During the work I had problems. The main one is: I can't open the website https:
 Also, depending on the country, Amazon shows a different number of products.
 Therefore, the test case was conducted with a location in the Netherlands.
 
-# Support engineer test task
-
-This repository is a part of a test assignment.
-
 ## Test assignment
 
 The script is based on the following scenario:
