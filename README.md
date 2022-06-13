@@ -3,6 +3,10 @@ During the work I had problems. The main one is: I can't open the website https:
 Also, depending on the country, Amazon shows a different number of products.
 Therefore, the test case was conducted with a location in the Netherlands.
 
+The code may not work the first time due to a bad internet or an unexpected message in the browser.
+
+The file with code you can find by the way "\test\test_shopping.py". 
+
 ## Test assignment
 
 The script is based on the following scenario:
