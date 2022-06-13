@@ -1,3 +1,8 @@
+# Problems, that you can have!
+During the work I had problems. The main one is: I can't open the website https://www.bestbuy.com/ from Ukraine. Therefore, I used the ProtonVPN service and changed the location to the Netherlands. Also, if you set the location of the United States, the above site does not ask for the choice of the country.
+Also, depending on the country, Amazon shows a different number of products.
+Therefore, the test case was conducted with a location in the Netherlands.
+
 # Support engineer test task
 
 This repository is a part of a test assignment.
