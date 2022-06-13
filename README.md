@@ -21,3 +21,5 @@ The script is based on the following scenario:
 
 Run the test case with Selenium in headless mode (already set up in `confest.py` module). 
 
+Result of test case:
+![image](https://user-images.githubusercontent.com/78733510/173388346-03e7a2e2-fa09-42dd-a43d-766cd6de8ac7.png)
